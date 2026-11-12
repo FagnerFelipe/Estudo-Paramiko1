@@ -1,8 +1,6 @@
 # Importa uma biblioteca necessária para as operações deste exercício.
 import socket
-# Importa uma biblioteca necessária para as operações deste exercício.
 import time
-# Importa uma biblioteca necessária para as operações deste exercício.
 import paramiko
 # Importa uma função, classe ou recurso específico de outro módulo.
 from conexao import conectar, executar
@@ -13,49 +11,35 @@ INVENTARIO_TESTE = [
     {
         # Executa esta instrução como parte do fluxo do exercício.
         "nome": "SAUDAVEL",
-        # Executa esta instrução como parte do fluxo do exercício.
         "host": "127.0.0.1",
-        # Executa esta instrução como parte do fluxo do exercício.
         "porta": 22,
-        # Executa esta instrução como parte do fluxo do exercício.
         "usuario": "r1",
     # Executa esta instrução como parte do fluxo do exercício.
     },
-    # Executa esta instrução como parte do fluxo do exercício.
     {
         # Executa esta instrução como parte do fluxo do exercício.
         "nome": "SENHA-ERRADA",
-        # Executa esta instrução como parte do fluxo do exercício.
         "host": "127.0.0.1",
-        # Executa esta instrução como parte do fluxo do exercício.
         "porta": 22,
-        # Executa esta instrução como parte do fluxo do exercício.
         "usuario": "r1",
-        # Executa esta instrução como parte do fluxo do exercício.
         "senha": "senha_incorreta",
     # Executa esta instrução como parte do fluxo do exercício.
     },
-    # Executa esta instrução como parte do fluxo do exercício.
+
     {
         # Executa esta instrução como parte do fluxo do exercício.
         "nome": "PORTA-FECHADA",
-        # Executa esta instrução como parte do fluxo do exercício.
         "host": "127.0.0.1",
-        # Executa esta instrução como parte do fluxo do exercício.
         "porta": 2299,
-        # Executa esta instrução como parte do fluxo do exercício.
         "usuario": "r1",
-    # Executa esta instrução como parte do fluxo do exercício.
+
     },
     # Executa esta instrução como parte do fluxo do exercício.
     {
         # Executa esta instrução como parte do fluxo do exercício.
         "nome": "SEM-RESPOSTA",
-        # Executa esta instrução como parte do fluxo do exercício.
         "host": "10.255.255.1",
-        # Executa esta instrução como parte do fluxo do exercício.
         "porta": 22,
-        # Executa esta instrução como parte do fluxo do exercício.
         "usuario": "r1",
     # Executa esta instrução como parte do fluxo do exercício.
     },

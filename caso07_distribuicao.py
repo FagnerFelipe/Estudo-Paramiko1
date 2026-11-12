@@ -1,6 +1,5 @@
 # Importa uma biblioteca necessária para as operações deste exercício.
 import hashlib
-# Importa uma biblioteca necessária para as operações deste exercício.
 import json
 # Importa uma função, classe ou recurso específico de outro módulo.
 from conexao import conectar, executar
@@ -40,7 +39,6 @@ def distribuir(dispositivo, hash_local):
         caminho_remoto = f"/home/{dispositivo['usuario']}/{REMOTO}"
         # Executa uma operação de arquivo remoto por meio do protocolo SFTP.
         sftp.put(LOCAL, caminho_remoto)
-        # Executa uma operação de arquivo remoto por meio do protocolo SFTP.
         sftp.chmod(caminho_remoto, 0o755)
     # Garante a execução deste bloco, ocorrendo sucesso ou erro; normalmente libera recursos.
     finally:

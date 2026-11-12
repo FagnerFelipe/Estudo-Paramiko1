@@ -1,6 +1,5 @@
 # Importa uma biblioteca necessária para as operações deste exercício.
 import difflib
-# Importa uma biblioteca necessária para as operações deste exercício.
 import json
 # Importa uma função, classe ou recurso específico de outro módulo.
 from conexao import conectar
@@ -68,7 +67,7 @@ for dispositivo in inventario:
     try:
         # Define/atualiza `atual` com o valor calculado nesta linha.
         atual = normalizar(ler_remoto(dispositivo))
-        # Define/atualiza `diferencas` com o valor calculado nesta linha.
+        # Define/atualiza `diferenças` com o valor calculado nesta linha.
         diferencas = list(
             # Executa esta instrução como parte do fluxo do exercício.
             difflib.unified_diff(

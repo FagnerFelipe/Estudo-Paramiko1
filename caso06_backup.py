@@ -1,12 +1,8 @@
 # Importa uma biblioteca necessária para as operações deste exercício.
 import json
-# Importa uma biblioteca necessária para as operações deste exercício.
 import logging
-# Importa uma função, classe ou recurso específico de outro módulo.
 from datetime import datetime
-# Importa uma função, classe ou recurso específico de outro módulo.
 from pathlib import Path
-# Importa uma função, classe ou recurso específico de outro módulo.
 from conexao import conectar
 
 # Define/atualiza `RETENCAO` com o valor calculado nesta linha.

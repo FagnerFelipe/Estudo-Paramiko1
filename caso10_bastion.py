@@ -6,11 +6,8 @@ from conexao import conectar, executar
 bastion = {
     # Executa esta instrução como parte do fluxo do exercício.
     "nome": "BASTION",
-    # Executa esta instrução como parte do fluxo do exercício.
     "host": "127.0.0.1",
-    # Executa esta instrução como parte do fluxo do exercício.
     "porta": 22,
-    # Executa esta instrução como parte do fluxo do exercício.
     "usuario": "bastion",
 # Executa esta instrução como parte do fluxo do exercício.
 }
@@ -20,11 +17,11 @@ bastion = {
 alvo = {
     # Executa esta instrução como parte do fluxo do exercício.
     "nome": "R1-INTERNO",
-    # Executa esta instrução como parte do fluxo do exercício.
+    
     "host": "127.0.0.1",
-    # Executa esta instrução como parte do fluxo do exercício.
+
     "porta": 2222,
-    # Executa esta instrução como parte do fluxo do exercício.
+
     "usuario": "r1",
 # Executa esta instrução como parte do fluxo do exercício.
 }
@@ -59,9 +56,7 @@ try:
 
     # Exibe uma informação no terminal para acompanhar o resultado da execução.
     print("Usuário:", executar(cliente_alvo, "whoami")[1])
-    # Exibe uma informação no terminal para acompanhar o resultado da execução.
     print("Hostname:", executar(cliente_alvo, "hostname")[1])
-    # Exibe uma informação no terminal para acompanhar o resultado da execução.
     print("Conexão SSH vista pelo destino:", executar(
         # Executa esta instrução como parte do fluxo do exercício.
         cliente_alvo, "echo $SSH_CONNECTION"

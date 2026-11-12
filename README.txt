@@ -1,4 +1,5 @@
 ESTUDO DIRIGIDO - SSH COM PARAMIKO
+Comendados comentados para futuro possivel estudo. 
 
 Arquivos:
 - caso01 até caso11: um script Python para cada caso.

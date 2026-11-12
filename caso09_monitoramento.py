@@ -17,15 +17,10 @@ def verificar(dispositivo):
     resultado = {
         # Executa esta instrução como parte do fluxo do exercício.
         "nome": dispositivo["nome"],
-        # Executa esta instrução como parte do fluxo do exercício.
         "disco": None,
-        # Executa esta instrução como parte do fluxo do exercício.
         "carga": None,
-        # Executa esta instrução como parte do fluxo do exercício.
         "sshd": None,
-        # Executa esta instrução como parte do fluxo do exercício.
         "alertas": [],
-        # Executa esta instrução como parte do fluxo do exercício.
         "estado": "OK",
     # Executa esta instrução como parte do fluxo do exercício.
     }
@@ -117,7 +112,6 @@ for resultado in resultados:
     print(
         # Executa esta instrução como parte do fluxo do exercício.
         f"{resultado['nome']:<6}{resultado['estado']:<9}"
-        # Executa esta instrução como parte do fluxo do exercício.
         f"{disco:<9}{str(carga):<9}{(resultado['sshd'] or '-'):<9}{alertas}"
     # Executa esta instrução como parte do fluxo do exercício.
     )
